@@ -1,0 +1,138 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+      box-sizing: border-box;
+    }
+
+    h1, h2, h3,
+    h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body, html{
+        margin: 0;
+        padding: 0;
+        /* font-family: [Open Sans](https://fonts.google.com/specimen/Open+Sans);
+        font-Weight: 400, 700; */
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container{
+      width: 100%;
+    }
+
+    .header {
+      position: relative;
+      padding: 20px;
+      width: 100%;
+      height: 200px;
+      /* border: 1px solid hsl(322, 100%, 66%); */
+    }
+
+    .header a {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      border: 1px solid hsl(322, 100%, 66%);
+      color: hsl(322, 100%, 66%);
+      padding: 5px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .section {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      height: auto;
+      /* border: 1px solid hsl(322, 100%, 66%); */
+    }
+
+    .inner1 {
+      padding: 10px 200px;
+      text-align: center;
+    }
+
+    .inner1 p{
+      padding: 0px 200px;
+    }
+
+    .but {
+      border: 1px solid hsl(322, 100%, 66%);
+      background-color: hsl(322, 100%, 66%);
+      color: white;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-weight: bold;
+    }
+
+    .col {
+      padding: 20px 60px;
+      width: 50%;
+      float: left;
+    }
+
+    .col p {
+      color:rgb(182, 182, 182);
+    }
+
+    .col1 {
+      width: 25%;
+      float: left;
+      padding: 20px;
+    }
+
+    .callToAction {
+      text-align: center;
+      padding: 300px 60px 20px 60px;
+      margin: 200px 0px;
+      
+    }
+
+    #bottom {
+      position: relative;
+      background-color: hsl(192, 100%, 9%);
+      /* height: 400px; */
+      box-sizing: border-box;
+      width: 100%;
+      /* height: auto; */
+      color: white;
+      padding: none;
+    }
+
+    #bottom span {
+      position: relative;
+      top: 210px;
+      right: 34%
+    }
+   
+
+    .subscribe {
+      border: 1px solid hsl(322, 100%, 66%);
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+        border-radius: none;
+        padding: 2px;
+    }
+
+    ul li {
+      list-style-type: none;
+      padding: 5px
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    
+    .jumb {
+      padding: 40px;
+    }
+
+    .social {
+      margin: 10px;
+      border-radius: 12px;
+      width: 40px;
+      height: 40px
+    }
